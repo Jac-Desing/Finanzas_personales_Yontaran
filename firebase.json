@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "finanzas-personales-standalone",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
