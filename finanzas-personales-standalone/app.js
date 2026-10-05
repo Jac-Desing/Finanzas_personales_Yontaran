@@ -299,6 +299,7 @@ async function resetPassword(){
   catch(err){renderAuth('login',friendlyAuthError(err));}
 }
 async function signOutCloud(){if(auth)await auth.signOut();store={};closeForm();renderAuth('login');}
+
 async function initFirebase(){
   try{
     if(typeof firebase==='undefined'||!firebase.apps?.length)return;
